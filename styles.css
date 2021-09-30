@@ -1,0 +1,114 @@
+body {
+  font-family: "Work Sans", sans-serif;
+  text-align: center;
+  margin: auto;
+}
+header {
+  padding: 1rem;
+  background-color: rgb(235, 235, 36);
+  color: rgb(0, 0, 0);
+}
+.container {
+  padding: 0rem 1rem;
+}
+
+.list-non-bullet {
+  list-style: none;
+}
+.navigation {
+  border-bottom-left-radius: 1rem;
+}
+.navigation .link {
+  color: white;
+}
+
+.navigation .nav-pills {
+  text-align: right;
+}
+
+.navigation .nav-brand {
+  font-weight: bold;
+  float: left;
+  font-size: large;
+  font-family: "Megrim", cursive;
+  text-align: initial;
+}
+
+.navigation .link-active {
+  font-weight: bold;
+}
+
+.list-item-inline {
+  display: inline;
+  padding: 0rem 0.5rem;
+}
+.quiz-main {
+  margin: 2rem auto;
+  width: 90%;
+  text-align: center;
+}
+
+.question-container {
+  width: 85%;
+  margin: 1rem auto;
+  font-size: larger;
+  padding: 1rem 0;
+}
+
+.question-container p {
+  margin: 1rem 0;
+}
+
+.submit-answer-btn {
+  background-color: black;
+  border: none;
+  color: #fff;
+  padding: 0.7rem 1rem;
+  border-radius: 0.5rem;
+  font-size: large;
+  cursor: pointer;
+  outline: #fff;
+  margin: 1rem auto;
+  display: block;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  font-size: large;
+}
+
+.input-label {
+  display: block;
+  font-size: large;
+  font-weight: 600;
+}
+
+.input {
+  font-size: 14px;
+  outline: #fff;
+  padding: 0.6rem 1rem;
+  margin: 1rem;
+  border: 2px solid black;
+  border-radius: 0.5rem;
+  width: 100%;
+  max-width: 258px;
+}
+.container {
+  text-align: center;
+}
+.btns {
+  background: yellow;
+  border-color: rgb(0, 0, 0);
+  color: rgb(0, 0, 0);
+  padding: 0.7rem 1rem;
+  border-radius: 0.5rem;
+  font-size: large;
+  cursor: pointer;
+  outline: rgb(0, 0, 0);
+  margin: auto;
+  display: block;
+}
