@@ -5,15 +5,33 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="styles.css" rel="stylesheet"/>
     <title>Triangle quiz</title>
 </head>
 
 <body>
-    <h1>Triangle Quiz</h1>
+    <header>
+    <nav class="navigation container">
+        <div class="nav-brand">Fun with Triangles</div>
+        <ul class="list-non-bullet nav-pills">
+            <li class="list-item-inline">
+                <a href="areaTriangle.html">TriangleArea</a>
+            </li>
+            <li class="list-item-inline">
+                <a href="index.html">Is Triangle</a>
+            </li>
+            <li class="list-item-inline">
+                <a href="hypotenuse.html">Hypotenuse</a>
+            </li>
+        </ul>
+    </nav>
+</header>
+        
+    <h1>Quiz on triangles</h1>
     <form class="quiz-form">
         <div class="question-container">
         <p>
-            Guess the third angle for the triangle where angle1 = 45 and angle2 = 90
+            Guess the third angle for the triangle where angle1 = 45° and angle2 = 90°
         </p>
         <label><input type="radio" name="question1" value="45°" />45°</label>
         <label><input type="radio" name="question1" value="60°" />60°</label>
@@ -23,8 +41,19 @@
         <p>If a triangle has and angle of 90°, whatis it called?</p>
         <label><input type="radio" name="question2" value="Acute" />Acute</label>
         <label><input type="radio" name="question2" value="Obtuse" />Obtuse</label>
-        <label><input type="radio" name="question2" value="right-angled" />Right angled</label>
+        <label><input type="radio" name="question2" value="Right-angled" />Right angled</label>
     </div>
+    <div class="question-container">
+        <p>Which of the following triangles are always similar?</p>
+        <label><input type="radio" name="question5" value="Equilateral triangle" />Equilateral triangle</label>
+        <label><input type="radio" name="question5" value="Isosceles triangle" />Isosceles triangle</label>
+    </div>
+    <div class="question-container">
+        <p>The perimeter of scalene triangle with sides a, b, c is</p>
+        <label><input type="radio" name="question8" value="a + b + c" />a + b + c</label>
+        <label><input type="radio" name="question8" value="2a" />2a</label>
+        <label><input type="radio" name="question8" value="None of these" />None of these</label>
+      </div>
     </form>
     <button class="submit-answer-btn">Submit Answers</button>
     <div id="output"></div>

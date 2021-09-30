@@ -1,13 +1,13 @@
 const quizForm = document.querySelector(".quiz-form");
-const submitAnswerBtn = document.querySelector('#submit-answer-btn');
+const submitAnswerBtn = document.querySelector('.submit-answer-btn');
 const outputEl = document.querySelector('#output');
 
-const correctAns = ['90°','right-anngled'];
+const correctAns = ['90°','Right-angled','Equilateral triangle','a + b + c'];
 
 function calculateScore() {
     let score = 0;
     const formResults = new FormData(quizForm);
-    const index=0;
+    let index=0;
     for(let answer of formResults.values()){
         if(answer === correctAns[index]){
             score += 1;
