@@ -112,3 +112,8 @@ a {
   margin: auto;
   display: block;
 }
+
+#output {
+  padding-top: 20px;
+  font-weight: 600;
+}
