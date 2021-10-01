@@ -8,8 +8,13 @@ function calculateArea(){
 }
 
 function checkTriangleArea(){
-    const triangleArea = calculateArea();
-    outputEl.innerText = "Area of the Triangle is: "+triangleArea+"cm2";
+    if(Number(dimensions[0].value) < 1 || Number(dimensions[1].value)<1){
+        outputEl.innerText = 'Please enter a positve number';
+    } else {
+        const triangleArea = calculateArea();
+        outputEl.innerText = "Area of the Triangle is: "+triangleArea+"cm2";
+    }
 }
+    
 
 checkAreaBtn.addEventListener('click', checkTriangleArea);
